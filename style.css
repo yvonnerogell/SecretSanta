@@ -1,0 +1,122 @@
+
+/*
+ */
+
+h6 {
+	font-family: Papyrus;
+
+}
+
+p {
+	font-family: Papyrus;
+
+}
+h1 {
+	font-family: Papyrus;
+	font-weight: bolder;
+
+}
+
+.names {
+	font-family: Papyrus;
+}
+
+.footer {
+
+}
+
+.page-footer {
+
+/*   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+
+*/
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #999;
+  color: white;
+  text-align: center;
+}
+
+
+html,
+body {
+width: 100%;
+height: 100%;
+}
+
+.background {
+width: 100%;
+height: 100%;
+min-width: 100%;
+min-height: 100%;
+position: relative;
+}
+
+.background::before {
+background-image: url(./christmas-wallpaper.jpg);
+background-size: cover;
+content: "";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -2;
+opacity: 0.4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 320px) {
+.background::before {
+background-image: url(./christmas-wallpaper.jpg);
+}
+}
+
+@media (min-width: 460px) {
+.background::before {
+background-image: url(./christmas-wallpaper.jpg);
+}
+}
+
+@media (min-width: 720px) {
+.background::before {
+background-image: url(./christmas-wallpaper.jpg);
+}
+}
+
+@media (min-width: 980px) {
+.background::before {
+background-image: url(./christmas-wallpaper.jpg);
+}
+}
+
+@media (min-width: 1240px) {
+.background::before {
+background-image: url(./christmas-wallpaper.jpg);
+}
+}
+
+@media (min-width: 1500px) {
+.background::before {
+background-image: url(./christmas-wallpaper.jpg);
+}
+}
+
+@media (min-width: 1760px) {
+.background::before {
+background-image: url(./christmas-wallpaper.jpg);
+}
+}
+
