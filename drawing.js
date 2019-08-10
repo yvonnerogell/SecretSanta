@@ -66,8 +66,16 @@ function addNamesToDrawing(event) {
 		}
 	}
 	console.log(namesInDrawing);
+	alert("We're drawing your names now!");
+}
+
+function resetNameDrawing(event) {
+	namesInDrawing = [];
+	console.log(namesInDrawing);
+	alert("Your drawing has been reset.");
 }
 
 document.getElementById('addNameBtn').addEventListener('click', addNewName, false);
 document.getElementById('drawNames').addEventListener('click', addNamesToDrawing, false);
+document.getElementById('resetBtn').addEventListener('click', resetNameDrawing, false);
 
